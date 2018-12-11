@@ -20,8 +20,12 @@ What is type? Type is a facility to create new type?
 
 ```
 TYPE T = (c1, c2, ... , cn)
+
+TYPE shape = (rectangle, square, ellipse, circle) 
+VAR s: shape
+s := square
 ```
-This is an enumeration type.
+This is an enumeration type. An enumeration type is ordered.
 
 dynamic data structures: pointers, lists, trees, graphs/meshes, scatter table (hash codes)
 
