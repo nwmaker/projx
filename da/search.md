@@ -17,4 +17,9 @@ Each step evidently requires the incrementing of the index and the evaluation of
 
 ## Binary search
 
+A search can be made much more effective, if the data are ordered.
+
+## String search
+
+
 

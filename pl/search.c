@@ -16,11 +16,13 @@ int linearSearch(int arr[], int n, int x)
   return -1; 
 } 
 
-int binarySearch(int arr[], int l, int r, int x) 
-{ 
-   if (r >= l) 
+int binarySearch(int arr[], int left, int right, int x) 
+{
+   // binary search, recursive!
+
+   if (right >= left) 
    { 
-        int mid = l + (r - l)/2; 
+        int mid = left + (right - left)/2; 
   
         // If the element is present at the middle  
         // itself 
@@ -30,11 +32,11 @@ int binarySearch(int arr[], int l, int r, int x)
         // If element is smaller than mid, then  
         // it can only be present in left subarray 
         if (arr[mid] > x)  
-            return binarySearch(arr, l, mid-1, x); 
+            return binarySearch(arr, left, mid-1, x); 
   
         // Else the element can only be present 
         // in right subarray 
-        return binarySearch(arr, mid+1, r, x); 
+        return binarySearch(arr, mid+1, right, x); 
    } 
   
    // We reach here when element is not  

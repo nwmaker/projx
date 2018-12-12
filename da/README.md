@@ -2,7 +2,7 @@
 
 Code runs on the machine. 
 
-Program has its environment. The environment can bare-metal, RTOS, operating system of Linux or Windows, virtual machine, browser, or others. For example, V8 is open source JavaScript execution engine, which provides a high performance execution environment for JS code. Node.js is based on libuv written in C, and V8 is written in C++ for the most part.
+Program has its environment. The environment can be bare-metal, RTOS, operating system of Linux or Windows, virtual machine, browser, or others. For example, V8 is open source JavaScript execution engine, which provides a high performance execution environment for JS code. Node.js is based on libuv written in C, and V8 is written in C++ for the most part.
  
 Programming language is accompanied by its libraries. 
 
